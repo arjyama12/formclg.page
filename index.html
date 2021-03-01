@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>page title</title>
+        <style>
+            body{
+                background-image: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0.9)), url(https://i.pinimg.com/originals/ab/54/52/ab545250d21bf0b0085c3b1f28d7d8c9.jpg);
+                background-size: contain;
+                background-position: center;
+                background-repeat: no-repeat;
+                height: 713px;
+            }
+            h1{
+                width: 67.5%;
+                font-size: 44px;
+                font-style: italic;
+                background-color: rgb(15, 15, 15);
+                color: white;
+                margin-left: 17%;
+            }
+            .registration{
+                margin: auto;
+                height: 74.5%;
+                width: 50%;
+                margin-top: 2%;
+                font-size: 18.2px;
+                text-align: center;
+                color: rgb(251, 253, 255);
+                background: #0c0b0b33;
+                border: 12px solid white;
+                padding: 18px;
+            }
+            span{
+                color: red;
+            }
+        </style>
+    </head>
+    <body>
+        <h1><b>COLLEGE REGISTRATION FORM FOR STUDENTS</b></h1>
+        <div class="registration">
+            <form>
+                <label><b>STUDENT'S NAME</b><span>*</span></label>
+                <input type="text" name="student name" placeholder="Enter Your Name">
+                <br><br>
+                <label><b>FATHER'S NAME</b><span>*</span></label>
+                <input type="text" name="father name" placeholder="Enter Your Father's Name">
+                <br><br>
+                <label><b>GENDER</b><span>*</span></label>
+                <input type="radio" name="gender" value="male">MALE<br>
+                <input type="radio" name="gender" value="female">FEMALE<br>
+                <input type="radio" name="gender" value="others">OTHERS<br><br>
+                <label><b>DATE OF BIRTH</b><span>*</span></label>
+                <input type="date" max="1980 12 15" min="2040 12 15">
+                    <br><br>
+                    <label><b>NATIONALITY</b><span>*</span></label>
+                    <input type="text" name="nationality" placeholder="Enter Your Nationality">
+                    <br><br>
+                    <label><b>STATE</b><span>*</span></label>
+                    <select name="STATE">
+                        <option value="state">Select State</option>
+                        <option> Andra Pradesh </option>
+                        <option> Arunachal Pradesh</option>
+                        <option> Assam </option>
+                        <option> Bihar </option>
+                        <option> Chattisgarh </option>
+                        <option> Goa </option>
+                        <option> Gujrat </option>
+                        <option> Haryana </option>
+                        <option> Himachal Pradesh </option>
+                        <option> Jharkhand </option>
+                        <option> Karnatka </option>
+                        <option> Kerala </option>
+                        <option> Madhya Pradesh </option>
+                        <option> Maharastra </option>
+                        <option> Manipur </option>
+                        <option> Meghalaya </option>
+                        <option> Mizoram </option>
+                        <option> Nagaland </option>
+                        <option> odisha </option>
+                        <option> Punjab </option>
+                        <option> Rajasthan </option>
+                        <option> Sikkim </option>
+                        <option> Tamil Nadu </option>
+                        <option> Telangana </option>
+                        <option> Tripura </option>
+                        <option> Uttar Pradesh </option>
+                        <option> Uttarakhand </option>
+                        <option> West Bengal </option>
+                    </select>
+                    <br><br>
+                    <label><b>PIN CODE</b><span>*</span></label>
+                    <input type="pin" name="pin" placeholder="Enter Your Pin Code">
+                    <br><br>
+                    <label><b>ADDRESS</b><span>*</span></label>
+                    <input type="text" name="address" placeholder="Enter Your Address">
+                    <br><br>
+                    <label><b>PHONE NUMBER</b><span>*</span></label>
+                    <input type="mob" name="ph number" placeholder="Enter Your Phone No.">
+                    <br><br>
+                    <label><b>SECONDARY MARKS</b><span>*</span></label>
+                    <input type="mob" name="sec marks" placeholder="Enter Secondary Marks">
+                    <br><br>
+                    <label><b>HIGHER SECONDARY MARKS</b><span>*</span></label>
+                    <input type="mob" name="high sec marks" placeholder="Enter Your HS Marks">
+                    <br><br>
+                    <input type="submit" name="submit">
+            </form>
+        </div>
+    </body>
+</html>
